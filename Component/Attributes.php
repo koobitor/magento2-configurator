@@ -169,6 +169,27 @@ class Attributes extends YamlComponentAbstract
             case 'required':
                 $name = 'is_required';
                 break;
+            case 'filterable':
+                $name = 'is_filterable';
+                break;
+            case 'searchable':
+                $name = 'is_searchable';
+                break;
+            case 'comparable':
+                $name = 'is_comparable';
+                break;
+            case 'visible_in_advanced_search':
+                $name = 'is_visible_in_advanced_search';
+                break;
+            case 'filterable_in_search':
+                $name = 'is_filterable_in_search';
+                break;
+            case 'used_for_promo_rules':
+                $name = 'is_used_for_promo_rules';
+                break;
+            case 'visible_on_front':
+                $name = 'is_visible_on_front';
+                break;
             case 'source':
                 $name = 'source_model';
                 break;
